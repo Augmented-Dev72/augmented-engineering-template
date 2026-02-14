@@ -8,7 +8,7 @@
 
 This template gives you the documentation hierarchy, agent templates, hook configuration, and documentation structure to practice compound engineering from day one. It works alongside two Claude Code plugins:
 
-- **[compound-engineering](https://github.com/augmented-dev/compound-engineering)** — Core hooks (format-on-edit, emoji commits, session cleanup) and skills (compound-review, session-summary, consolidate-memory)
+- **[compound-engineering](https://github.com/Augmented-Dev72/compound-engineering)** — Core hooks (format-on-edit, emoji commits, session cleanup) and skills (compound-review, session-summary, consolidate-memory)
 - **[superpowers](https://github.com/anthropics/claude-code-superpowers)** — General-purpose skills (new-doc, update-docs, pr, commit)
 
 The template is **stack-agnostic**. It uses TODO stubs throughout where you fill in project-specific content (your commands, your architecture, your coding standards).
