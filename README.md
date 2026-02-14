@@ -2,13 +2,13 @@
 
 <!-- TODO: Replace with your project name and description -->
 
-> A project bootstrapped with the compound engineering template — AI-assisted development with compounding returns.
+> A project bootstrapped with the augmented engineering template — AI-assisted development implementing [compound engineering](https://every.to/chain-of-thought/compound-engineering-how-every-codes-with-agents) principles for compounding returns.
 
 ## What This Template Provides
 
 This template gives you the documentation hierarchy, agent templates, hook configuration, and documentation structure to practice compound engineering from day one. It works alongside two Claude Code plugins:
 
-- **[compound-engineering](https://github.com/Augmented-Dev72/compound-engineering)** — Core hooks (format-on-edit, emoji commits, session cleanup) and skills (compound-review, session-summary, consolidate-memory)
+- **[augmented-engineering](https://github.com/Augmented-Dev72/augmented-engineering)** — Core hooks (format-on-edit, emoji commits, session cleanup) and skills (compound-review, session-summary, consolidate-memory)
 - **[superpowers](https://github.com/anthropics/claude-code-superpowers)** — General-purpose skills (new-doc, update-docs, pr, commit)
 
 The template is **stack-agnostic**. It uses TODO stubs throughout where you fill in project-specific content (your commands, your architecture, your coding standards).
@@ -16,13 +16,14 @@ The template is **stack-agnostic**. It uses TODO stubs throughout where you fill
 ## Prerequisites
 
 1. [Claude Code](https://docs.anthropic.com/en/docs/claude-code) installed and configured
-2. Install the compound-engineering plugin:
+2. Install the augmented-engineering plugin:
    ```bash
-   claude plugin add compound-engineering
+   /plugin marketplace add Augmented-Dev72/augmented-engineering
+   /plugin install augmented-engineering@augmented-engineering
    ```
 3. Install the superpowers plugin:
    ```bash
-   claude plugin add superpowers
+   /plugin install superpowers
    ```
 
 ## Quick Start
