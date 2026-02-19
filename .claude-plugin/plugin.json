@@ -1,0 +1,11 @@
+{
+  "name": "augmented-engineering-template",
+  "version": "1.0.0",
+  "description": "Project template implementing compound engineering principles — includes CLAUDE.md, custom agents (code-reviewer, debug-detective), hooks, and documentation scaffolding for consistent, high-quality development workflows.",
+  "author": "Brooks Johnson",
+  "homepage": "https://github.com/Augmented-Dev72/augmented-engineering-template",
+  "license": "MIT",
+  "engines": {
+    "claude-code": ">=1.0.0"
+  }
+}
